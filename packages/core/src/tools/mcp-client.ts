@@ -166,7 +166,7 @@ export async function discoverMcpTools(
  * Connects to an MCP server and discovers available tools, registering them with the tool registry.
  * This function handles the complete lifecycle of connecting to a server, discovering tools,
  * and cleaning up resources if no tools are found.
- * 
+ *
  * @param mcpServerName The name identifier for this MCP server
  * @param mcpServerConfig Configuration object containing connection details
  * @param toolRegistry The registry to register discovered tools with
@@ -389,7 +389,7 @@ async function connectAndDiscover(
  * Sanitizes a JSON schema object to ensure compatibility with Vertex AI.
  * This function recursively processes the schema to remove problematic properties
  * that can cause issues with the Gemini API.
- * 
+ *
  * @param schema The JSON schema object to sanitize (modified in-place)
  */
 export function sanitizeParameters(schema?: Schema) {

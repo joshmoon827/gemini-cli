@@ -92,7 +92,7 @@ Process Group PGID: Process group started or \`(none)\``,
   /**
    * Extracts the root command from a given shell command string.
    * This is used to identify the base command for permission checks.
-   * 
+   *
    * @param command The shell command string to parse
    * @returns The root command name, or undefined if it cannot be determined
    * @example getCommandRoot("ls -la /tmp") returns "ls"
@@ -110,7 +110,7 @@ Process Group PGID: Process group started or \`(none)\``,
   /**
    * Determines whether a given shell command is allowed to execute based on
    * the tool's configuration including allowlists and blocklists.
-   * 
+   *
    * @param command The shell command string to validate
    * @returns True if the command is allowed to execute, false otherwise
    */
